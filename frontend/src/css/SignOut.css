@@ -1,0 +1,50 @@
+.SignOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .SignOut-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .logoutPara {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signout-btn,
+  .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signout-btn {
+    background-color: #d9534f;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .cancel-btn {
+    background-color: #5bc0de;
+    color: white;
+  }
+  

@@ -1,0 +1,65 @@
+.createPost {
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+}
+
+.main-div {
+    border-top: 1px solid rgb(173, 173, 173);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#post-btn {
+    border: none;
+    color: #339ce3;
+    background: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.details {
+    border-top: 1px solid rgb(173, 173, 173);
+    padding: 10px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-pic {
+    margin-right: 10px;
+}
+
+.card-pic img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.card-header h5 {
+    margin: 0;
+}
+
+.caption-input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    margin-top: 10px; /* Add margin-top to separate the textarea from the header */
+}
+#output{
+    width: 300px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
